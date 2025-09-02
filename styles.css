@@ -170,3 +170,13 @@ h2 {
 .apresenta-lista{
     display: none;
 }
+
+.alto-contraste{
+    background-color: var(--alto-contraste-alto);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header, .alto-contraste footer, .alto-contraste .formulario{
+    background-color: var(--alto-contraste-alto);
+    color: var(--alto-contraste-texto);
+}
